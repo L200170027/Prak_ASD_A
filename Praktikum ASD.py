@@ -1,11 +1,11 @@
 #no.1
-def segitiga():
+def Segitiga():
     for i in range(5):
         for j in range(i+1):
             print("*", end=' ')
         print()
     return(i)
-segitiga()
+Segitiga()
 
 #no.2
 def persegiEmpat (x,y):
@@ -20,7 +20,7 @@ persegiEmpat(4,5)
 
 
 #no.3a
-def jmlvokal(string):
+def jumlahvokal(string):
     vok = 0
     x = "aiueoAIUEO"
     for car in string.lower():
@@ -30,7 +30,7 @@ def jmlvokal(string):
     return(vokal,vok)
 
 #no.3b
-def jmlkonso(string):
+def jumlahkonsonan(string):
     vok = 0
     x = "aiueoAIUEO"
     for car in string.lower():
@@ -41,7 +41,7 @@ def jmlkonso(string):
 
 #no.4
 def rerata(x):
-	"Hitung Rata Rata dari List"
+	"Hitung Rata-Rata dari List"
 	jml=0
 	banyak=0
 	for angka in x:
@@ -73,7 +73,7 @@ print(apakahPrima(97))
 print(apakahPrima(123))
 
 #no.6
-def bilanganprima():
+def BilanganPrima():
     prima=list()
     for i in range(2,1000):
         a = True
@@ -84,7 +84,7 @@ def bilanganprima():
         if(a):
             print(i)
             prima.append(i)
-bilanganprima()
+BilanganPrima()
 
 ##no.7
 def faktorprima(n):

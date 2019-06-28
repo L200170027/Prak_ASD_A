@@ -32,7 +32,7 @@ def jumlahvokal(string):
 #no.3b
 def jumlahkonsonan(string):
     vok = 0
-    x = "aiueoAIUEO"
+    x = "aiueoAIUEO" 
     for car in string.lower():
         if car not in x:
             vok += 1
